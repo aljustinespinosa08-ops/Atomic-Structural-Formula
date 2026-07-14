@@ -1,0 +1,2 @@
+npm install express mysql2 bcrypt jsonwebtoken dotenv cors body-parser multer chart.js
+npm install --save-dev nodemon
