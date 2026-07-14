@@ -1,3 +1,46 @@
-# Atomic-Structural-Formula
-An atomic structural formula is a graphic representation that shows how atoms in a molecule are arranged and chemically bonded to one another. Unlike a simple chemical formula (like H_2O), it maps out the specific physical structure, using lines to represent shared electron bonds between the atomic symbols.
-
+BondQuest/
+│
+├── server.js
+├── package.json
+├── .env
+├── .gitignore
+│
+├── config/
+│   └── db.js
+│
+├── controllers/
+│   ├── authController.js
+│   ├── studentController.js
+│   ├── teacherController.js
+│
+├── middleware/
+│   └── auth.js
+│
+├── models/
+│
+├── routes/
+│   ├── auth.js
+│   ├── student.js
+│   ├── teacher.js
+│
+├── database/
+│   └── bondquest.sql
+│
+├── public/
+│   ├── css/
+│   ├── js/
+│   ├── images/
+│   ├── sounds/
+│   └── animations/
+│
+├── views/
+│   ├── login.html
+│   ├── register.html
+│   ├── dashboard.html
+│   ├── game.html
+│   ├── pretest.html
+│   ├── posttest.html
+│   ├── leaderboard.html
+│   └── admin.html
+│
+└── README.md
